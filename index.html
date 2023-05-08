@@ -13,35 +13,35 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/31310f7633.js" crossorigin="anonymous"></script>
+    <!-- adding font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="row">
-        <div class="col-sm-1 leftcorner">
-            <div class="features">
-                <a href="#" class = "inside-f"><i class="fa-sharp fa-solid fa-location-arrow inside-features"></i></a> <br>
-                <a href="#" class = "inside-f"><i class="fa-solid fa-music inside-features"></i> </a><br>
-                <a href="#" class = "inside-f"><i class="fa-solid fa-phone inside-features"></i> </a><br>
-                <a href="#" class = "inside-f"><i class="fa-solid fa-car inside-features"></i> </a><br>
-            </div>
-        </div>
-        <div class="col-sm-11 rightcorner">
-            <div class="row">
-                <div class="col-sm-4 form-area">
-                    <div class="main-form-area row">
-                        <img src="./assets/26623-map-navigation.gif" alt="" srcset="" style = "padding-top: 12px;">
-                        <div class="search-form">
-                            <br>
-                            <form action="#">
-                                <input type="text" name = "current-location" placeholder="Current Location" class = "form-curr"> <br> <br>
-                                <input type="text" name = "current-location" placeholder="Destination Location" class = "form-dest"> <br> <br>
-                                <button type="button" class="btn btn-primary" style = "width: 14rem;">Find</button>
-                            </form>
-                        </div>
+        <div class="row">
+            <div class="col-sm-4 form-area">
+                <h1 style="text-align: center;color: rgb(243, 117, 117);" class = "heading">Traffic Master</h1>
+                <div class="main-form-area row">
+                    <div class="row" style="width: fit-content;"><img src="./assets/26623-map-navigation.gif" alt=""
+                            srcset="" style="padding-top: 12px;size: 10%;"></div>
+                    <div class="search-form">
+                        <br>
+                        <form action="#">
+                            <i class="fa-solid fa-location-dot"
+                                style="font-size:22px;padding-right:3px; color:rgb(217, 75, 75)"></i><input type="text"
+                                name="current-location" placeholder="Current Location" class="form-curr"> <br> <br>
+                            <i class="fa-solid fa-location-dot"
+                                style="font-size:22px;padding-right:3px; color:rgb(217, 75, 75)"></i><input type="text"
+                                name="current-location" placeholder="Destination Location" class="form-dest"> <br> <br>
+                            <button type="button" class="btn btn-primary" style="width:100%;">Find</button>
+                        </form>
                     </div>
                 </div>
-                <div class="col-sm-8 map-area"></div>
             </div>
+            <div class="col-sm-8 map-area"></div>
         </div>
     </div>
 </body>

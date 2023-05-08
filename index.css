@@ -1,0 +1,45 @@
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.inside-features:hover{
+    color: #297aff;
+}
+.leftcorner{
+    background-color:#22242e;
+    height: 100vh;
+}
+.features{
+    position: absolute;
+    top: 20%;
+    left: 3px;
+    width: fit-content;
+}
+.inside-features{
+    font-size: 30px;   
+    padding: 32px;     
+    color:white;
+}
+.search-form{
+    width: fit-content;
+    margin: auto;
+}
+.form-area{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+}
+.form-curr{
+    border-radius: 20px;
+    padding: 8px;
+    width:14rem;
+}
+.form-dest{
+    border-radius: 20px;
+    padding: 8px;
+    width: 14rem;
+}
+.map-area{
+    background-image: url("./assets/img-1.webp");
+    background-repeat: no-repeat;
+
+}
